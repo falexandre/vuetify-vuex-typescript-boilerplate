@@ -1,0 +1,121 @@
+{
+		"defaultSeverity": "warning",
+		"extends": [
+				"tslint:recommended"
+		],
+		"jsRules": {
+				"no-unused-expression": true
+		},
+		"linterOptions": {
+				"exclude": [
+						"node_modules/**"
+				]
+		},
+		"rules": {
+				"trailing-comma": [
+						true,
+						{
+								"singleline": "never",
+								"multiline": {
+										"objects": "ignore",
+										"arrays": "ignore",
+										"functions": "ignore",
+										"typeLiterals": "ignore"
+								}
+						}
+				],
+				"quotemark": [
+						true,
+						"double"
+				],
+				"indent": "ignore",
+				"no-var-requires": false,
+				"eofline": false,
+				"arrow-return-shorthand": true,
+				"comment-format": [
+						true,
+						"check-space"
+				],
+				"import-spacing": true,
+				"interface-over-type-literal": true,
+				"label-position": true,
+				"member-access": [
+						false
+				],
+				"ordered-imports": [
+						false
+				],
+				"max-line-length": {
+						"severity": "warning",
+						"options": [
+								140
+						]
+				},
+				"member-ordering": [
+						false
+				],
+				"curly": false,
+				"interface-name": [
+						false
+				],
+				"array-type": [
+						false
+				],
+				"no-empty-interface": true,
+				"no-empty": false,
+				"arrow-parens": false,
+				"max-classes-per-file": false,
+				"one-variable-per-declaration": false,
+				"no-arg": true,
+				"no-bitwise": true,
+				"no-console": [
+						true,
+						"log",
+						"debug",
+						"time",
+						"timeEnd",
+						"trace"
+				],
+				"no-construct": true,
+				"no-debugger": true,
+				"no-duplicate-super": true,
+				"no-eval": true,
+				"no-inferrable-types": false,
+				"no-misused-new": true,
+				"no-non-null-assertion": true,
+				"no-shadowed-variable": true,
+				"no-string-literal": false,
+				"no-string-throw": true,
+				"no-switch-case-fall-through": true,
+				"no-trailing-whitespace": true,
+				"no-unnecessary-initializer": true,
+				"no-unused-expression": true,
+				"no-var-keyword": true,
+				"object-literal-sort-keys": false,
+				"one-line": [
+						true,
+						"check-open-brace",
+						"check-catch",
+						"check-else",
+						"check-whitespace"
+				],
+				"prefer-const": true,
+				"radix": true,
+				"semicolon": [
+						true,
+						"always"
+				],
+				"unified-signatures": true,
+				"variable-name": false,
+				"whitespace": [
+						true,
+						"check-branch",
+						"check-decl",
+						"check-operator",
+						"check-separator",
+						"check-type",
+						"check-module"
+				],
+				"no-output-on-prefix": false
+		}
+}

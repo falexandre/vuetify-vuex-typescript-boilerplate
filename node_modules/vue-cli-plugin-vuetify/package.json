@@ -1,0 +1,36 @@
+{
+  "name": "vue-cli-plugin-vuetify",
+  "version": "0.6.3",
+  "description": "Vuetify Framework Plugin for Vue CLI 3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vuetifyjs/vue-cli-plugin-vuetify.git"
+  },
+  "keywords": [
+    "vuetify",
+    "vuetify plugin",
+    "vue-cli",
+    "vue-cli vuetify",
+    "vue-cli material",
+    "vue-cli-3",
+    "vue-cli-3 vuetify",
+    "vue-cli-3 material"
+  ],
+  "author": "John Leider <john@vuetifyjs.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vuetifyjs/vue-cli-plugin-vuetify/issues"
+  },
+  "homepage": "https://github.com/vuetifyjs/vue-cli-plugin-vuetify#readme",
+  "devDependencies": {
+    "@release-it/conventional-changelog": "^1.1.0",
+    "@vue/cli-service": "^3.8.0",
+    "vuetify": "^2.0.0",
+    "vuetify-loader": "^1.2.2"
+  },
+  "dependencies": {}
+}
